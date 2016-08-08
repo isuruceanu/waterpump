@@ -89,7 +89,7 @@ F 3 "" H 1900 750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1550 750  1750 750 
+	1400 750  1750 750 
 Wire Wire Line
 	2050 750  2250 750 
 Wire Wire Line
@@ -115,7 +115,7 @@ Wire Wire Line
 	2950 650  3100 650 
 Wire Wire Line
 	3000 1050 3100 1050
-Text GLabel 1550 750  0    60   Input ~ 0
+Text GLabel 850  750  0    60   Input ~ 0
 PINPUMP
 $Comp
 L +5V #PWR02
@@ -511,89 +511,32 @@ Text GLabel 8100 1150 0    60   Input ~ 0
 PresureSensor
 Wire Wire Line
 	8750 1250 8700 1250
-Text GLabel 2300 2900 0    60   Input ~ 0
+Text GLabel 1300 5300 0    60   Input ~ 0
 PresureSensor
-Wire Wire Line
-	2300 2900 2600 2900
-$Comp
-L GND #PWR08
-U 1 1 5717E5CA
-P 3300 4850
-F 0 "#PWR08" H 3300 4600 50  0001 C CNN
-F 1 "GND" H 3300 4700 50  0000 C CNN
-F 2 "" H 3300 4850 50  0000 C CNN
-F 3 "" H 3300 4850 50  0000 C CNN
-	1    3300 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 4650 3300 4850
-Text GLabel 4200 3600 2    60   Input ~ 0
+Text GLabel 3600 5500 2    60   Input ~ 0
 LEDR
-Text GLabel 4200 3700 2    60   Input ~ 0
+Text GLabel 3600 5600 2    60   Input ~ 0
 LEDG
-Text GLabel 2300 3000 0    60   Input ~ 0
+Text GLabel 3600 4400 2    60   Input ~ 0
 PINPUMP
-Text GLabel 4200 3500 2    60   Input ~ 0
+Text GLabel 3600 5400 2    60   Input ~ 0
 BTN1
-Text GLabel 4200 3400 2    60   Input ~ 0
+Text GLabel 3600 5300 2    60   Input ~ 0
 BTN2
-Text GLabel 4200 3150 2    60   Input ~ 0
+Text GLabel 3600 5200 2    60   Input ~ 0
 BTN3
-Text GLabel 4200 2850 2    60   Input ~ 0
+Text GLabel 3600 4800 2    60   Input ~ 0
 DISDATA
-Text GLabel 4200 3050 2    60   Input ~ 0
+Text GLabel 3600 5100 2    60   Input ~ 0
 DISCLOCK
-Text GLabel 4200 2950 2    60   Input ~ 0
+Text GLabel 3600 4900 2    60   Input ~ 0
 DISLATCH
-Text GLabel 4200 2750 2    60   Input ~ 0
+Text GLabel 3600 4700 2    60   Input ~ 0
 DISDIGI1
-Text GLabel 4200 2650 2    60   Input ~ 0
+Text GLabel 3600 4600 2    60   Input ~ 0
 DISDIGI2
-Text GLabel 4200 2550 2    60   Input ~ 0
+Text GLabel 3600 4500 2    60   Input ~ 0
 DISDIGI3
-Wire Wire Line
-	4000 2550 4200 2550
-Wire Wire Line
-	4000 2650 4200 2650
-Wire Wire Line
-	4000 2750 4200 2750
-Wire Wire Line
-	4000 2850 4200 2850
-Wire Wire Line
-	4000 2950 4200 2950
-Wire Wire Line
-	4000 3050 4200 3050
-Wire Wire Line
-	4000 3150 4200 3150
-Wire Wire Line
-	4000 3400 4200 3400
-Wire Wire Line
-	4000 3500 4200 3500
-$Comp
-L CONN_01X02 P4
-U 1 1 57180E41
-P 7900 2150
-F 0 "P4" H 7900 2300 50  0000 C CNN
-F 1 "CONN_01X02" V 8000 2150 50  0000 C CNN
-F 2 "DG306:DG306-2.54-02" H 7900 2150 50  0001 C CNN
-F 3 "" H 7900 2150 50  0000 C CNN
-	1    7900 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 5718100C
-P 7600 2250
-F 0 "#PWR010" H 7600 2000 50  0001 C CNN
-F 1 "GND" H 7600 2100 50  0000 C CNN
-F 2 "" H 7600 2250 50  0000 C CNN
-F 3 "" H 7600 2250 50  0000 C CNN
-	1    7600 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 2200 7600 2200
 $Comp
 L Led_x2 D1
 U 1 1 5718847E
@@ -628,10 +571,6 @@ Wire Wire Line
 	3600 1650 3600 1550
 Wire Wire Line
 	3600 1550 3750 1550
-Wire Wire Line
-	4000 3600 4200 3600
-Wire Wire Line
-	4000 3700 4200 3700
 $Comp
 L CONN_01X02 P5
 U 1 1 5718A3E1
@@ -659,63 +598,12 @@ Wire Wire Line
 Connection ~ 3050 850 
 Wire Wire Line
 	5600 1000 5900 1000
-$Comp
-L R R2
-U 1 1 571E4535
-P 8400 1150
-F 0 "R2" V 8480 1150 50  0000 C CNN
-F 1 "R" V 8400 1150 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 8330 1150 50  0001 C CNN
-F 3 "" H 8400 1150 50  0000 C CNN
-	1    8400 1150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	8750 1150 8550 1150
-Wire Wire Line
-	8250 1150 8100 1150
-$Comp
-L C C1
-U 1 1 571E495A
-P 8150 1350
-F 0 "C1" H 8175 1450 50  0000 L CNN
-F 1 "C" H 8175 1250 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D12_P7.75" H 8188 1200 50  0001 C CNN
-F 3 "" H 8150 1350 50  0000 C CNN
-	1    8150 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 1500 8150 1550
-Wire Wire Line
-	8150 1550 8450 1550
-Connection ~ 8450 1550
-Wire Wire Line
-	8150 1150 8150 1200
-Connection ~ 8150 1150
+	8100 1150 8750 1150
 Wire Wire Line
 	2200 950  2200 1050
 Wire Wire Line
 	2850 950  3000 950 
-Wire Wire Line
-	2300 3000 2600 3000
-$Comp
-L +5V #PWR012
-U 1 1 573A105D
-P 7650 2050
-F 0 "#PWR012" H 7650 1900 50  0001 C CNN
-F 1 "+5V" H 7650 2190 50  0000 C CNN
-F 2 "" H 7650 2050 50  0000 C CNN
-F 3 "" H 7650 2050 50  0000 C CNN
-	1    7650 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 2200 7600 2250
-Wire Wire Line
-	7650 2050 7650 2100
-Wire Wire Line
-	7650 2100 7700 2100
 Wire Wire Line
 	3000 950  3000 1050
 Wire Wire Line
@@ -725,12 +613,51 @@ Wire Wire Line
 $Comp
 L ARDUINO_FOOTPRINT SHIELD?
 U 1 1 57A8CF52
-P 2000 5350
-F 0 "SHIELD?" H 1550 6500 60  0000 C CNN
-F 1 "ARDUINO_FOOTPRINT" H 2050 4400 60  0000 C CNN
-F 2 "FT:ARDUINO_SHIELD" H 2000 5150 50  0001 C CNN
-F 3 "" H 2000 5350 60  0000 C CNN
-	1    2000 5350
+P 2450 5000
+F 0 "SHIELD?" H 2000 6150 60  0000 C CNN
+F 1 "ARDUINO_FOOTPRINT" H 2500 4050 60  0000 C CNN
+F 2 "FT:ARDUINO_SHIELD" H 2450 4800 50  0001 C CNN
+F 3 "" H 2450 5000 60  0000 C CNN
+	1    2450 5000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3400 4400 3600 4400
+Wire Wire Line
+	3400 4500 3600 4500
+Wire Wire Line
+	3400 4600 3600 4600
+Wire Wire Line
+	3400 4700 3600 4700
+Wire Wire Line
+	3400 4800 3600 4800
+Wire Wire Line
+	3400 4900 3600 4900
+Wire Wire Line
+	3400 5100 3600 5100
+Wire Wire Line
+	3400 5200 3600 5200
+Wire Wire Line
+	3400 5300 3600 5300
+Wire Wire Line
+	3400 5400 3600 5400
+Wire Wire Line
+	3400 5500 3600 5500
+Wire Wire Line
+	3400 5600 3600 5600
+Wire Wire Line
+	1300 5300 1500 5300
+$Comp
+L LED D?
+U 1 1 57A9033F
+P 1200 750
+F 0 "D?" H 1200 850 50  0000 C CNN
+F 1 "LED" H 1200 650 50  0000 C CNN
+F 2 "" H 1200 750 50  0000 C CNN
+F 3 "" H 1200 750 50  0000 C CNN
+	1    1200 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  750  1000 750 
 $EndSCHEMATC
