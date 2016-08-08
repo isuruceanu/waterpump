@@ -1,4 +1,4 @@
-update=Wed 20 Apr 2016 06:11:43 PM EEST
+update=Mon 08 Aug 2016 09:19:05 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=Arduino_nano
+LibDir=library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,6 +56,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=Arduino_As_Uno_R3/Arduino_As_Uno-cache
-LibName31=myLibrary
-LibName32=Arduino_nano/arduino
+LibName30=myLibrary
+LibName31=library/freetronics_schematic
+[general]
+version=1

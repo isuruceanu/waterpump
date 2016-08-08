@@ -28,10 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Arduino_As_Uno-cache
 LIBS:myLibrary
-LIBS:arduino
-LIBS:WaterPressure-cache
+LIBS:freetronics_schematic
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -513,17 +511,6 @@ Text GLabel 8100 1150 0    60   Input ~ 0
 PresureSensor
 Wire Wire Line
 	8750 1250 8700 1250
-$Comp
-L arduino_mini U2
-U 1 1 5717DB04
-P 3300 3100
-F 0 "U2" H 3800 2150 70  0000 C CNN
-F 1 "arduino_mini" H 4050 2050 70  0000 C CNN
-F 2 "arduino:arduino_mini" H 3300 3050 60  0000 C CNN
-F 3 "" H 3300 3100 60  0000 C CNN
-	1    3300 3100
-	1    0    0    -1  
-$EndComp
 Text GLabel 2300 2900 0    60   Input ~ 0
 PresureSensor
 Wire Wire Line
@@ -584,19 +571,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 3500 4200 3500
 $Comp
-L +5V #PWR09
-U 1 1 57180CB4
-P 3300 1800
-F 0 "#PWR09" H 3300 1650 50  0001 C CNN
-F 1 "+5V" H 3300 1940 50  0000 C CNN
-F 2 "" H 3300 1800 50  0000 C CNN
-F 3 "" H 3300 1800 50  0000 C CNN
-	1    3300 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 1800 3300 1950
-$Comp
 L CONN_01X02 P4
 U 1 1 57180E41
 P 7900 2150
@@ -620,10 +594,6 @@ F 3 "" H 7600 2250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7700 2200 7600 2200
-Text GLabel 3150 1800 1    60   Input ~ 0
-Vin
-Wire Wire Line
-	3150 1800 3150 1950
 $Comp
 L Led_x2 D1
 U 1 1 5718847E
@@ -752,4 +722,15 @@ Wire Wire Line
 	2950 650  2950 750 
 Wire Wire Line
 	2950 750  2850 750 
+$Comp
+L ARDUINO_FOOTPRINT SHIELD?
+U 1 1 57A8CF52
+P 2000 5350
+F 0 "SHIELD?" H 1550 6500 60  0000 C CNN
+F 1 "ARDUINO_FOOTPRINT" H 2050 4400 60  0000 C CNN
+F 2 "FT:ARDUINO_SHIELD" H 2000 5150 50  0001 C CNN
+F 3 "" H 2000 5350 60  0000 C CNN
+	1    2000 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
