@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:myLibrary
 LIBS:freetronics_schematic
+LIBS:WaterPressure-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -136,7 +137,7 @@ U 1 1 57177DF7
 P 4600 1450
 F 0 "R4" V 4680 1450 50  0000 C CNN
 F 1 "330" V 4600 1450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4530 1450 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 4530 1450 50  0001 C CNN
 F 3 "" H 4600 1450 50  0000 C CNN
 	1    4600 1450
 	0    1    1    0   
@@ -147,7 +148,7 @@ U 1 1 57177EC1
 P 4600 1650
 F 0 "R5" V 4680 1650 50  0000 C CNN
 F 1 "330" V 4600 1650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 4530 1650 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 4530 1650 50  0001 C CNN
 F 3 "" H 4600 1650 50  0000 C CNN
 	1    4600 1650
 	0    1    1    0   
@@ -217,7 +218,7 @@ U 1 1 57178439
 P 7750 2800
 F 0 "R10" V 7830 2800 50  0000 C CNN
 F 1 "220" V 7750 2800 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 2800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 2800 50  0001 C CNN
 F 3 "" H 7750 2800 50  0000 C CNN
 	1    7750 2800
 	0    1    1    0   
@@ -228,7 +229,7 @@ U 1 1 57178507
 P 7750 2900
 F 0 "R11" V 7830 2900 50  0000 C CNN
 F 1 "220" V 7750 2900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 2900 50  0001 C CNN
 F 3 "" H 7750 2900 50  0000 C CNN
 	1    7750 2900
 	0    1    1    0   
@@ -239,7 +240,7 @@ U 1 1 57178559
 P 7750 3000
 F 0 "R12" V 7830 3000 50  0000 C CNN
 F 1 "220" V 7750 3000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3000 50  0001 C CNN
 F 3 "" H 7750 3000 50  0000 C CNN
 	1    7750 3000
 	0    1    1    0   
@@ -250,7 +251,7 @@ U 1 1 571785AE
 P 7750 3100
 F 0 "R13" V 7830 3100 50  0000 C CNN
 F 1 "220" V 7750 3100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3100 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3100 50  0001 C CNN
 F 3 "" H 7750 3100 50  0000 C CNN
 	1    7750 3100
 	0    1    1    0   
@@ -261,7 +262,7 @@ U 1 1 57178606
 P 7750 3200
 F 0 "R14" V 7830 3200 50  0000 C CNN
 F 1 "220" V 7750 3200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3200 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3200 50  0001 C CNN
 F 3 "" H 7750 3200 50  0000 C CNN
 	1    7750 3200
 	0    1    1    0   
@@ -272,7 +273,7 @@ U 1 1 57178661
 P 7750 3300
 F 0 "R15" V 7830 3300 50  0000 C CNN
 F 1 "220" V 7750 3300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3300 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3300 50  0001 C CNN
 F 3 "" H 7750 3300 50  0000 C CNN
 	1    7750 3300
 	0    1    1    0   
@@ -283,7 +284,7 @@ U 1 1 571786C3
 P 7750 3400
 F 0 "R16" V 7830 3400 50  0000 C CNN
 F 1 "220" V 7750 3400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3400 50  0001 C CNN
 F 3 "" H 7750 3400 50  0000 C CNN
 	1    7750 3400
 	0    1    1    0   
@@ -294,7 +295,7 @@ U 1 1 57178724
 P 7750 3500
 F 0 "R17" V 7830 3500 50  0000 C CNN
 F 1 "220" V 7750 3500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7680 3500 50  0001 C CNN
 F 3 "" H 7750 3500 50  0000 C CNN
 	1    7750 3500
 	0    1    1    0   
@@ -513,29 +514,29 @@ Wire Wire Line
 	8750 1250 8700 1250
 Text GLabel 1300 5300 0    60   Input ~ 0
 PresureSensor
-Text GLabel 3600 5500 2    60   Input ~ 0
+Text GLabel 3600 5200 2    60   Input ~ 0
 LEDR
-Text GLabel 3600 5600 2    60   Input ~ 0
+Text GLabel 3600 5300 2    60   Input ~ 0
 LEDG
 Text GLabel 3600 4400 2    60   Input ~ 0
 PINPUMP
-Text GLabel 3600 5400 2    60   Input ~ 0
+Text GLabel 3600 5600 2    60   Input ~ 0
 BTN1
-Text GLabel 3600 5300 2    60   Input ~ 0
+Text GLabel 3600 5500 2    60   Input ~ 0
 BTN2
-Text GLabel 3600 5200 2    60   Input ~ 0
+Text GLabel 3600 5400 2    60   Input ~ 0
 BTN3
-Text GLabel 3600 4800 2    60   Input ~ 0
-DISDATA
-Text GLabel 3600 5100 2    60   Input ~ 0
-DISCLOCK
-Text GLabel 3600 4900 2    60   Input ~ 0
-DISLATCH
-Text GLabel 3600 4700 2    60   Input ~ 0
-DISDIGI1
-Text GLabel 3600 4600 2    60   Input ~ 0
-DISDIGI2
 Text GLabel 3600 4500 2    60   Input ~ 0
+DISDATA
+Text GLabel 3600 4700 2    60   Input ~ 0
+DISCLOCK
+Text GLabel 3600 4600 2    60   Input ~ 0
+DISLATCH
+Text GLabel 3600 4800 2    60   Input ~ 0
+DISDIGI1
+Text GLabel 3600 4900 2    60   Input ~ 0
+DISDIGI2
+Text GLabel 3600 5100 2    60   Input ~ 0
 DISDIGI3
 $Comp
 L Led_x2 D1
@@ -557,10 +558,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 1650 5050 1650
 $Comp
-L GND #PWR011
+L GND #PWR08
 U 1 1 57188E66
 P 3600 1650
-F 0 "#PWR011" H 3600 1400 50  0001 C CNN
+F 0 "#PWR08" H 3600 1400 50  0001 C CNN
 F 1 "GND" H 3600 1500 50  0000 C CNN
 F 2 "" H 3600 1650 50  0000 C CNN
 F 3 "" H 3600 1650 50  0000 C CNN
@@ -611,10 +612,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 750  2850 750 
 $Comp
-L ARDUINO_FOOTPRINT SHIELD?
+L ARDUINO_FOOTPRINT SHIELD1
 U 1 1 57A8CF52
 P 2450 5000
-F 0 "SHIELD?" H 2000 6150 60  0000 C CNN
+F 0 "SHIELD1" H 2000 6150 60  0000 C CNN
 F 1 "ARDUINO_FOOTPRINT" H 2500 4050 60  0000 C CNN
 F 2 "FT:ARDUINO_SHIELD" H 2450 4800 50  0001 C CNN
 F 3 "" H 2450 5000 60  0000 C CNN
@@ -648,12 +649,12 @@ Wire Wire Line
 Wire Wire Line
 	1300 5300 1500 5300
 $Comp
-L LED D?
+L LED D2
 U 1 1 57A9033F
 P 1200 750
-F 0 "D?" H 1200 850 50  0000 C CNN
+F 0 "D2" H 1200 850 50  0000 C CNN
 F 1 "LED" H 1200 650 50  0000 C CNN
-F 2 "" H 1200 750 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 1200 750 50  0001 C CNN
 F 3 "" H 1200 750 50  0000 C CNN
 	1    1200 750 
 	-1   0    0    1   
