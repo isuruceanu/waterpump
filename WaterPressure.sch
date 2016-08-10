@@ -65,17 +65,17 @@ F 1 "TOPUMP" V 3400 1000 50  0000 C CNN
 F 2 "DG306:DG306-5.08-02" H 3300 1000 50  0001 C CNN
 F 3 "" H 3300 1000 50  0000 C CNN
 	1    3300 1000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR01
 U 1 1 57177551
-P 2200 1050
-F 0 "#PWR01" H 2200 800 50  0001 C CNN
-F 1 "GND" H 2200 900 50  0000 C CNN
-F 2 "" H 2200 1050 50  0000 C CNN
-F 3 "" H 2200 1050 50  0000 C CNN
-	1    2200 1050
+P 2000 1600
+F 0 "#PWR01" H 2000 1350 50  0001 C CNN
+F 1 "GND" H 2000 1450 50  0000 C CNN
+F 2 "" H 2000 1600 50  0000 C CNN
+F 3 "" H 2000 1600 50  0000 C CNN
+	1    2000 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -90,8 +90,6 @@ F 3 "" H 1900 750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1400 750  1750 750 
-Wire Wire Line
 	2050 750  2250 750 
 Wire Wire Line
 	2250 950  2200 950 
@@ -104,7 +102,7 @@ F 1 "TO220" V 3400 700 50  0000 C CNN
 F 2 "DG306:DG306-5.08-02" H 3300 700 50  0001 C CNN
 F 3 "" H 3300 700 50  0000 C CNN
 	1    3300 700 
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3100 750  3050 750 
@@ -116,7 +114,7 @@ Wire Wire Line
 	2950 650  3100 650 
 Wire Wire Line
 	3000 1050 3100 1050
-Text GLabel 850  750  0    60   Input ~ 0
+Text GLabel 2000 1450 0    60   Input ~ 0
 PINPUMP
 $Comp
 L +5V #PWR02
@@ -218,7 +216,7 @@ U 1 1 57178439
 P 7750 2800
 F 0 "R10" V 7830 2800 50  0000 C CNN
 F 1 "220" V 7750 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 2800 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 2800 50  0001 C CNN
 F 3 "" H 7750 2800 50  0000 C CNN
 	1    7750 2800
 	0    1    1    0   
@@ -229,7 +227,7 @@ U 1 1 57178507
 P 7750 2900
 F 0 "R11" V 7830 2900 50  0000 C CNN
 F 1 "220" V 7750 2900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 2900 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 2900 50  0001 C CNN
 F 3 "" H 7750 2900 50  0000 C CNN
 	1    7750 2900
 	0    1    1    0   
@@ -240,7 +238,7 @@ U 1 1 57178559
 P 7750 3000
 F 0 "R12" V 7830 3000 50  0000 C CNN
 F 1 "220" V 7750 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3000 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3000 50  0001 C CNN
 F 3 "" H 7750 3000 50  0000 C CNN
 	1    7750 3000
 	0    1    1    0   
@@ -251,7 +249,7 @@ U 1 1 571785AE
 P 7750 3100
 F 0 "R13" V 7830 3100 50  0000 C CNN
 F 1 "220" V 7750 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3100 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3100 50  0001 C CNN
 F 3 "" H 7750 3100 50  0000 C CNN
 	1    7750 3100
 	0    1    1    0   
@@ -262,7 +260,7 @@ U 1 1 57178606
 P 7750 3200
 F 0 "R14" V 7830 3200 50  0000 C CNN
 F 1 "220" V 7750 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3200 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3200 50  0001 C CNN
 F 3 "" H 7750 3200 50  0000 C CNN
 	1    7750 3200
 	0    1    1    0   
@@ -273,7 +271,7 @@ U 1 1 57178661
 P 7750 3300
 F 0 "R15" V 7830 3300 50  0000 C CNN
 F 1 "220" V 7750 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3300 50  0001 C CNN
 F 3 "" H 7750 3300 50  0000 C CNN
 	1    7750 3300
 	0    1    1    0   
@@ -284,7 +282,7 @@ U 1 1 571786C3
 P 7750 3400
 F 0 "R16" V 7830 3400 50  0000 C CNN
 F 1 "220" V 7750 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3400 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3400 50  0001 C CNN
 F 3 "" H 7750 3400 50  0000 C CNN
 	1    7750 3400
 	0    1    1    0   
@@ -295,7 +293,7 @@ U 1 1 57178724
 P 7750 3500
 F 0 "R17" V 7830 3500 50  0000 C CNN
 F 1 "220" V 7750 3500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7680 3500 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 7680 3500 50  0001 C CNN
 F 3 "" H 7750 3500 50  0000 C CNN
 	1    7750 3500
 	0    1    1    0   
@@ -391,7 +389,7 @@ U 1 1 5717BC3B
 P 6800 1000
 F 0 "R7" V 6880 1000 50  0000 C CNN
 F 1 "10k" V 6800 1000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 6730 1000 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6730 1000 50  0001 C CNN
 F 3 "" H 6800 1000 50  0000 C CNN
 	1    6800 1000
 	0    1    1    0   
@@ -411,7 +409,7 @@ U 1 1 5717C0EF
 P 6800 1350
 F 0 "R8" V 6880 1350 50  0000 C CNN
 F 1 "10k" V 6800 1350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 6730 1350 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6730 1350 50  0001 C CNN
 F 3 "" H 6800 1350 50  0000 C CNN
 	1    6800 1350
 	0    1    1    0   
@@ -431,7 +429,7 @@ U 1 1 5717C38E
 P 6800 1700
 F 0 "R9" V 6880 1700 50  0000 C CNN
 F 1 "10k" V 6800 1700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 6730 1700 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6730 1700 50  0001 C CNN
 F 3 "" H 6800 1700 50  0000 C CNN
 	1    6800 1700
 	0    1    1    0   
@@ -485,12 +483,12 @@ $EndComp
 $Comp
 L +5V #PWR06
 U 1 1 5717D044
-P 8700 1250
-F 0 "#PWR06" H 8700 1100 50  0001 C CNN
-F 1 "+5V" H 8700 1390 50  0000 C CNN
-F 2 "" H 8700 1250 50  0000 C CNN
-F 3 "" H 8700 1250 50  0000 C CNN
-	1    8700 1250
+P 8650 1350
+F 0 "#PWR06" H 8650 1200 50  0001 C CNN
+F 1 "+5V" H 8650 1490 50  0000 C CNN
+F 2 "" H 8650 1350 50  0000 C CNN
+F 3 "" H 8650 1350 50  0000 C CNN
+	1    8650 1350
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -505,38 +503,36 @@ F 3 "" H 8450 1600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 1350 8450 1600
-Wire Wire Line
-	8450 1350 8750 1350
+	8450 1250 8450 1600
 Text GLabel 8100 1150 0    60   Input ~ 0
 PresureSensor
 Wire Wire Line
-	8750 1250 8700 1250
+	8450 1250 8750 1250
 Text GLabel 1300 5300 0    60   Input ~ 0
 PresureSensor
-Text GLabel 3600 5200 2    60   Input ~ 0
-LEDR
-Text GLabel 3600 5300 2    60   Input ~ 0
-LEDG
-Text GLabel 3600 4400 2    60   Input ~ 0
-PINPUMP
-Text GLabel 3600 5600 2    60   Input ~ 0
-BTN1
-Text GLabel 3600 5500 2    60   Input ~ 0
-BTN2
-Text GLabel 3600 5400 2    60   Input ~ 0
-BTN3
 Text GLabel 3600 4500 2    60   Input ~ 0
-DISDATA
-Text GLabel 3600 4700 2    60   Input ~ 0
-DISCLOCK
+LEDR
 Text GLabel 3600 4600 2    60   Input ~ 0
-DISLATCH
+LEDG
+Text GLabel 1300 5400 0    60   Input ~ 0
+PINPUMP
+Text GLabel 3600 4700 2    60   Input ~ 0
+BTN1
 Text GLabel 3600 4800 2    60   Input ~ 0
-DISDIGI1
+BTN2
 Text GLabel 3600 4900 2    60   Input ~ 0
-DISDIGI2
+BTN3
+Text GLabel 3600 5300 2    60   Input ~ 0
+DISDATA
 Text GLabel 3600 5100 2    60   Input ~ 0
+DISCLOCK
+Text GLabel 3600 5200 2    60   Input ~ 0
+DISLATCH
+Text GLabel 3600 5400 2    60   Input ~ 0
+DISDIGI1
+Text GLabel 3600 5500 2    60   Input ~ 0
+DISDIGI2
+Text GLabel 3600 5600 2    60   Input ~ 0
 DISDIGI3
 $Comp
 L Led_x2 D1
@@ -572,37 +568,10 @@ Wire Wire Line
 	3600 1650 3600 1550
 Wire Wire Line
 	3600 1550 3750 1550
-$Comp
-L CONN_01X02 P5
-U 1 1 5718A3E1
-P 3750 700
-F 0 "P5" H 3750 850 50  0000 C CNN
-F 1 "CONN_01X02" V 3850 700 50  0000 C CNN
-F 2 "DG306:DG306-5.08-02" H 3750 700 50  0001 C CNN
-F 3 "" H 3750 700 50  0000 C CNN
-	1    3750 700 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 650  3050 550 
-Wire Wire Line
-	3050 550  3500 550 
-Wire Wire Line
-	3500 550  3500 650 
-Wire Wire Line
-	3500 650  3550 650 
-Connection ~ 3050 650 
-Wire Wire Line
-	3050 850  3550 850 
-Wire Wire Line
-	3550 850  3550 750 
-Connection ~ 3050 850 
 Wire Wire Line
 	5600 1000 5900 1000
 Wire Wire Line
 	8100 1150 8750 1150
-Wire Wire Line
-	2200 950  2200 1050
 Wire Wire Line
 	2850 950  3000 950 
 Wire Wire Line
@@ -651,14 +620,100 @@ Wire Wire Line
 $Comp
 L LED D2
 U 1 1 57A9033F
-P 1200 750
-F 0 "D2" H 1200 850 50  0000 C CNN
-F 1 "LED" H 1200 650 50  0000 C CNN
-F 2 "LEDs:LED-3MM" H 1200 750 50  0001 C CNN
-F 3 "" H 1200 750 50  0000 C CNN
-	1    1200 750 
+P 1450 750
+F 0 "D2" H 1450 850 50  0000 C CNN
+F 1 "LED" H 1450 650 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 1450 750 50  0001 C CNN
+F 3 "" H 1450 750 50  0000 C CNN
+	1    1450 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 57AB5158
+P 1250 4700
+F 0 "#PWR09" H 1250 4550 50  0001 C CNN
+F 1 "+5V" H 1250 4840 50  0000 C CNN
+F 2 "" H 1250 4700 50  0000 C CNN
+F 3 "" H 1250 4700 50  0000 C CNN
+	1    1250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 57AB5220
+P 1350 5100
+F 0 "#PWR010" H 1350 4850 50  0001 C CNN
+F 1 "GND" H 1350 4950 50  0000 C CNN
+F 2 "" H 1350 5100 50  0000 C CNN
+F 3 "" H 1350 5100 50  0000 C CNN
+	1    1350 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4700 1250 4800
+Wire Wire Line
+	1250 4800 1500 4800
+Wire Wire Line
+	1350 4900 1350 5100
+Wire Wire Line
+	1350 5000 1500 5000
+Wire Wire Line
+	1500 4900 1350 4900
+Connection ~ 1350 5000
+$Comp
+L GND #PWR011
+U 1 1 57AB5C43
+P 4600 4400
+F 0 "#PWR011" H 4600 4150 50  0001 C CNN
+F 1 "GND" H 4600 4250 50  0000 C CNN
+F 2 "" H 4600 4400 50  0000 C CNN
+F 3 "" H 4600 4400 50  0000 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4300 4600 4300
+Wire Wire Line
+	4600 4300 4600 4400
+Wire Wire Line
+	8650 1350 8750 1350
+$Comp
+L CONN_01X02 P6
+U 1 1 57AB67E5
+P 2300 1500
+F 0 "P6" H 2300 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 2400 1500 50  0000 C CNN
+F 2 "DG306:DG306-5.08-02" H 2300 1500 50  0001 C CNN
+F 3 "" H 2300 1500 50  0000 C CNN
+	1    2300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1450 2100 1450
+Wire Wire Line
+	2100 1550 2000 1550
+Wire Wire Line
+	2000 1550 2000 1600
+$Comp
+L CONN_01X02 P4
+U 1 1 57AB6D00
+P 1000 800
+F 0 "P4" H 1000 950 50  0000 C CNN
+F 1 "CONN_01X02" V 1100 800 50  0000 C CNN
+F 2 "DG306:DG306-2.54-02" H 1000 800 50  0001 C CNN
+F 3 "" H 1000 800 50  0000 C CNN
+	1    1000 800 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	850  750  1000 750 
+	1200 850  2200 850 
+Wire Wire Line
+	2200 850  2200 950 
+Wire Wire Line
+	1650 750  1750 750 
+Wire Wire Line
+	1200 750  1250 750 
+Wire Wire Line
+	1500 5400 1300 5400
 $EndSCHEMATC
